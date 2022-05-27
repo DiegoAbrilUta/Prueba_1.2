@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/item_borrar"
+        android:title="@string/borrar_dibujo_menu" />
+
+    <item android:id="@+id/item_salvar"
+        android:title="@string/guardar_menu" />
+
+    <item android:id="@+id/item_imprimir"
+        android:title="@string/imprimir_menu" />
+
+
+    <item android:id="@+id/item_color"
+        android:icon="@mipmap/ic_paleta_foreground"
+        app:showAsAction="always"
+        android:title="TODO"
+        />
+
+    <item android:id="@+id/item_tamaño"
+        android:icon="@mipmap/ic_pincel_foreground"
+        app:showAsAction="always"
+        android:title="TODO" />
+</menu>
